@@ -10,7 +10,7 @@
   - group
   - sprite(x,y, framekey) 精灵图
     - play(animateKey | {key, repeat})
-    - on(event, fn) 监听动画事件(animationrepeat)
+    - on(AnimationsEvents, fn) 监听动画事件(animationrepeat)
     - x 坐标值
   - text(x,y,value,{color})
     - setInteractive()
@@ -46,6 +46,7 @@
 ### Animations
  - Events
     - ADD_ANIMATION
+    - SPRITE_ANIMATION_START
 ### Geom
 
 - Circle(x,y,r)
