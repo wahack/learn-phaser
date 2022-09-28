@@ -35,4 +35,11 @@
 - IncY 同IncX
 - Rotate(items, value) 给每个物件的rotate属性加上值value
 - GridAlign(items, config) 将物件按配置排列到网格
-- 
+
+
+
+### Animations
+
+anims.create({
+  key: '', frames: , frameRate: number, yoyo: bool, repeat: -1, repeatDelay: 300
+})
