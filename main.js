@@ -45,6 +45,7 @@ class Example extends Phaser.Scene
         });
 
         this.anims.create({
+            
             key: 'idle',
             frames: this.anims.generateFrameNames('knight', { prefix: 'idle/frame', start: 0, end: 5, zeroPad: 4 }),
             frameRate: 8,
