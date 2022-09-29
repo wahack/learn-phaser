@@ -1,0 +1,20 @@
+{
+  "name": "phaser3-tutorial-src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahack/learn-phaser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wahack/learn-phaser/issues"
+  },
+  "homepage": "https://github.com/wahack/learn-phaser#readme"
+}
