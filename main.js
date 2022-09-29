@@ -9,7 +9,7 @@ class Example extends Phaser.Scene
     {
         this.load.atlas('knight', 'assets/animations/knight.png', 'assets/animations/knight.json');
         this.load.image('bg', 'assets/skies/clouds.png');
-        // 注释
+        // 注释sdsdf
         this.load.spritesheet('tiles', 'assets/tilemaps/tiles/fantasy-tiles.png', { frameWidth: 64, frameHeight: 64 });
     }
 
