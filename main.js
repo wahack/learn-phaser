@@ -20,7 +20,7 @@ class Example extends Phaser.Scene
 
         for (var i = 0; i < 13; i++)
         {
-            //sdf
+            //s
             this.add.image(64 * i, 536, 'tiles', 1).setOrigin(0);
         }
 
