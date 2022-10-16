@@ -9,6 +9,7 @@ class Example extends Phaser.Scene
     {
         this.load.atlas('knight', 'assets/animations/knight.png', 'assets/animations/knight.json');
         this.load.image('bg', 'assets/skies/clouds.png');
+        // 注释sdsdf
         this.load.spritesheet('tiles', 'assets/tilemaps/tiles/fantasy-tiles.png', { frameWidth: 64, frameHeight: 64 });
     }
 
@@ -19,6 +20,7 @@ class Example extends Phaser.Scene
 
         for (var i = 0; i < 13; i++)
         {
+            //s
             this.add.image(64 * i, 536, 'tiles', 1).setOrigin(0);
         }
 
@@ -45,6 +47,7 @@ class Example extends Phaser.Scene
         });
 
         this.anims.create({
+            
             key: 'idle',
             frames: this.anims.generateFrameNames('knight', { prefix: 'idle/frame', start: 0, end: 5, zeroPad: 4 }),
             frameRate: 8,
