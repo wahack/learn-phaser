@@ -14,8 +14,9 @@
     - x 坐标值
   - text(x,y,value,{color})
     - setInteractive()
-  - titleSprite()
+  - titleSprite(x,y,width,height)
     - tilePositionX
+  - tileSprite
   
 - anims
   - create({key=animatekey, frames=帧, frameRate,yoyo,repeat, repeatDelay}) 创建动画，
