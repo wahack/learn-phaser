@@ -20,16 +20,19 @@
 - anims
   - create({key=animatekey, frames=帧, frameRate,yoyo,repeat, repeatDelay}) 创建动画，
   - createFromAseprite(name)
-  - generateFrameNames(framekey, {prefix, end, zeroPad})
-  - getProgress()
+  - generateFrameNames(framekey, {prefix, end, zeroPad})  创建一组Animations.AnimationFrame物件 
+  - getProgress() 0到1之间的值，反应当前动画在所有帧中执行的进度
+
+
   - on(AnimationsEvents, fn, context)
 - input
     - on(gameobjectdown|pointerup, fn)
-- load
-  - atlas()
-  - aseprite(name, path, jsonfile)
+  
+- (load)[https://photonstorm.github.io/phaser3-docs/Phaser.Loader.LoaderPlugin.html]
+  - atlas()  打包了一定数量的帧，这些帧有名字索引
+  - aseprite(name, path, jsonfile) (Aseprite)[https://www.aseprite.org/]强大的精灵动画编辑器和像素艺术工具
   - image()
-  - spritesheet()
+  - spritesheet() 添加一个或一组精灵图(精灵图是一张具有准确固定大小的图，里面每个帧都有相同的大小，可以用数字来索引这些帧)
   - path
   - 
 - physics
